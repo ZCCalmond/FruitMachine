@@ -91,6 +91,6 @@ const resetBtn = document.querySelector(".reset-btn");
 startBtn.addEventListener("click", () => {
   machine.reset();
   machine.start();
-  setTimeout(() => machine.stop(Math.floor(Math.random() * 8)), 10000);
+  setTimeout(() => machine.stop(Math.floor(Math.random() * 8)), 3000);
 });
 resetBtn.addEventListener("click", () => machine.reset());
