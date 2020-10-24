@@ -30,7 +30,7 @@ class FruitMachine {
         var arr = []
         for (var i = 0; i < len; i++) arr[i] = i
         return arr
-      }(this.items.length))
+      }(this.items.length - 1))
     }
   
     start() {
